@@ -498,6 +498,7 @@ h6 {
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
+  width: 800px;
 }
 
 #hero .btn-get-started {
@@ -572,9 +573,12 @@ h6 {
   }
 }
 
-@media (max-height: 500px) {
+@media (max-width: 500px) {
   #hero {
-    height: 120vh;
+    height: 80vh;
+  }
+  #hero h2 {
+    width: 80vw;
   }
 }
 
